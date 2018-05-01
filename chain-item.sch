@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "ACC - Chain Item "
+Date "2018-05-01"
+Rev "v1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -394,7 +394,7 @@ U 1 1 5AE8BB9A
 P 3200 6200
 F 0 "J2" H 3150 6250 50  0000 C CNN
 F 1 "R_PAD1" H 3350 6200 50  0000 C CNN
-F 2 "chain-item:pad_resistor" H 3200 6200 50  0001 C CNN
+F 2 "chain-item:pogopin" H 3200 6200 50  0001 C CNN
 F 3 "~" H 3200 6200 50  0001 C CNN
 	1    3200 6200
 	-1   0    0    1   
@@ -405,7 +405,7 @@ U 1 1 5AE8BD04
 P 3200 6450
 F 0 "J3" H 3150 6500 50  0000 C CNN
 F 1 "R_PAD2" H 3350 6450 50  0000 C CNN
-F 2 "chain-item:pad_resistor" H 3200 6450 50  0001 C CNN
+F 2 "chain-item:pogopin" H 3200 6450 50  0001 C CNN
 F 3 "~" H 3200 6450 50  0001 C CNN
 	1    3200 6450
 	-1   0    0    1   
@@ -416,7 +416,7 @@ U 1 1 5AE8E9B3
 P 2100 6100
 F 0 "J5" H 2072 6030 50  0000 R CNN
 F 1 "R_PAD1" H 2072 6121 50  0000 R CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 2100 6100 50  0001 C CNN
+F 2 "chain-item:pad_resistor" H 2100 6100 50  0001 C CNN
 F 3 "~" H 2100 6100 50  0001 C CNN
 	1    2100 6100
 	-1   0    0    1   
@@ -427,7 +427,7 @@ U 1 1 5AE8EA5A
 P 2100 6600
 F 0 "J6" H 2072 6530 50  0000 R CNN
 F 1 "R_PAD2" H 2072 6621 50  0000 R CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 2100 6600 50  0001 C CNN
+F 2 "chain-item:pad_resistor" H 2100 6600 50  0001 C CNN
 F 3 "~" H 2100 6600 50  0001 C CNN
 	1    2100 6600
 	-1   0    0    1   

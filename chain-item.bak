@@ -394,7 +394,7 @@ U 1 1 5AE8BB9A
 P 3200 6200
 F 0 "J2" H 3150 6250 50  0000 C CNN
 F 1 "R_PAD1" H 3350 6200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 3200 6200 50  0001 C CNN
+F 2 "chain-item:pad_resistor" H 3200 6200 50  0001 C CNN
 F 3 "~" H 3200 6200 50  0001 C CNN
 	1    3200 6200
 	-1   0    0    1   
@@ -405,7 +405,7 @@ U 1 1 5AE8BD04
 P 3200 6450
 F 0 "J3" H 3150 6500 50  0000 C CNN
 F 1 "R_PAD2" H 3350 6450 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 3200 6450 50  0001 C CNN
+F 2 "chain-item:pad_resistor" H 3200 6450 50  0001 C CNN
 F 3 "~" H 3200 6450 50  0001 C CNN
 	1    3200 6450
 	-1   0    0    1   
