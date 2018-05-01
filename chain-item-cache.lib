@@ -1,0 +1,214 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector:Conn_01x01_Female
+#
+DEF Connector:Conn_01x01_Female J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector:Conn_01x01_Female" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector:Conn_01x01_Male
+#
+DEF Connector:Conn_01x01_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector:Conn_01x01_Male" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+$ENDFPLIST
+DRAW
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector:Conn_01x04
+#
+DEF Connector:Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector:Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Worldsemi:WS2812B
+#
+DEF Worldsemi:WS2812B LED 0 40 Y Y 1 F N
+F0 "LED" 0 -200 50 H V C CNN
+F1 "Worldsemi:WS2812B" 0 100 50 H V C CNN
+F2 "LEDs:LED_WS2812B-PLCC4" 0 -300 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+S -300 50 300 -150 0 1 10 f
+X VDD 1 -400 0 100 R 50 50 1 1 W
+X DOUT 2 400 0 100 L 50 50 1 1 O
+X VSS 3 400 -100 100 L 50 50 1 1 W
+X DIN 4 -400 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# atmel:ATTINY10-TS
+#
+DEF atmel:ATTINY10-TS U 0 40 Y Y 1 F N
+F0 "U" -1000 400 50 H V C CNN
+F1 "atmel:ATTINY10-TS" 850 -400 50 H V C CNN
+F2 "TO_SOT_Packages_SMD:SOT-23-6" 0 250 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -1050 350 1050 -350 0 1 10 f
+X PB0(AIN0/ADC0/OC0A/PCINT0/TPIDATA) 1 -1200 150 150 R 40 40 1 1 B
+X GND 2 1200 -250 150 L 40 40 1 1 W
+X PB1(AIN1/ADC1/OC0B/ICP0/PCINT1/CLKI/TPICLK) 3 -1200 50 150 R 40 40 1 1 B
+X PB2(INT0/ADC2/T0/PCINT2/CLKO) 4 -1200 -50 150 R 40 40 1 1 B
+X VCC 5 1200 250 150 L 40 40 1 1 W
+X PB3(~RESET~/ADC3/PCINT3) 6 -1200 -150 150 R 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# atmel:AVR-ISP-6
+#
+DEF atmel:AVR-ISP-6 CON 0 40 Y Y 1 F N
+F0 "CON" 0 400 50 H V L CNN
+F1 "atmel:AVR-ISP-6" 0 -300 50 H V L CNN
+F2 "" -250 50 50 V I C CNN
+F3 "" -1275 -550 50 H I C CNN
+$FPLIST
+ IDC?Header*2x03*
+ Pin?Header*2x03*
+$ENDFPLIST
+DRAW
+S -105 -220 -95 -250 0 1 0 N
+S -105 350 -95 320 0 1 0 N
+S 250 -95 220 -105 0 1 0 N
+S 250 5 220 -5 0 1 0 N
+S 250 105 220 95 0 1 0 N
+S 250 205 220 195 0 1 0 N
+S 250 350 -200 -250 0 1 10 f
+X MISO 1 400 200 150 L 50 50 1 1 P
+X VCC 2 -100 500 150 D 50 50 1 1 P
+X SCK 3 400 0 150 L 50 50 1 1 P
+X MOSI 4 400 100 150 L 50 50 1 1 P
+X RST 5 400 -100 150 L 50 50 1 1 P
+X GND 6 -100 -400 150 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# device:C_Small
+#
+DEF device:C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "device:C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# device:R
+#
+DEF device:R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "device:R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mechanical:Mounting_Hole
+#
+DEF mechanical:Mounting_Hole MK 0 40 Y Y 1 F N
+F0 "MK" 0 200 50 H V C CNN
+F1 "mechanical:Mounting_Hole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Mounting?Hole*
+ Hole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# power:+5V
+#
+DEF power:+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:GND
+#
+DEF power:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
