@@ -1,0 +1,3 @@
+[submodule "software/robot/components/odometry/odometry"]
+	path = software/robot/components/odometry/odometry
+	url = git@github.com:naguirre/robot_sw.git
