@@ -8,11 +8,11 @@
 #
 
 
-COMPONENT_SRCDIRS := odometry/app odometry/hal odometry/utils/logs odometry/utils/maths odometry/utils/state_machine odometry/utils/tick
+COMPONENT_SRCDIRS := drivers odometry/app odometry/hal odometry/utils/logs odometry/utils/maths odometry/utils/state_machine odometry/utils/tick odometry/simu
 #COMPONENT_OBJS := odometry/slimproto.o squeezelite/utils.o squeezelite/buffer.o squeezelite/stream.o squeezelite/decode.o squeezelite/faad.o squeezelite/mad.o squeezelite/resample.o squeezelite/process.o squeezelite/output.o squeezelite/output_pack.o port/output_esp32.o
 
 COMPONENT_SUBMODULES += odometry
-COMPONENT_ADD_INCLUDEDIRS += odometry odometry/utils  odometry/app odometry/drivers odometry/hal odometry/utils/logs odometry/utils/maths odometry/utils/state_machine odometry/utils/tick
+COMPONENT_ADD_INCLUDEDIRS += drivers odometry odometry/utils  odometry/app odometry/drivers odometry/hal odometry/utils/logs odometry/utils/maths odometry/utils/state_machine odometry/utils/tick
 
 #DEPS = squeezelite/squeezelite.h squeezelite/slimproto.h
 
