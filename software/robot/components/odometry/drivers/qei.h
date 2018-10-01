@@ -2,7 +2,7 @@
 #define __QEI_H__
 
 #include <types.h>
-
+#include "gpio.h"
 class Qei
 {
 
@@ -15,7 +15,7 @@ public:
         CHANNEL3,
     } Channel;
 
-    Qei(Qei::Channel channel);
+    Qei(Qei::Channel channel, Gpio::Pin pin);
 
     uint16_t GetStepsCount();
 
