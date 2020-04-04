@@ -16,7 +16,8 @@ public:
     } Channel;
 
     Qei(Qei::Channel channel, Gpio::Pin pin);
-
+    Qei(Qei::Channel channel);
+    
     uint16_t GetStepsCount();
 
 private:

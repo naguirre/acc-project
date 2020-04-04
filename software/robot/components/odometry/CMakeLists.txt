@@ -1,0 +1,5 @@
+set(COMPONENT_SRCDIRS "drivers" "odometry/app" "odometry/hal" "odometry/utils/logs" "odometry/utils/maths" "odometry/utils/state_machine" "odometry/utils/tick" "odometry/simu" 	)
+set(COMPONENT_ADD_INCLUDEDIRS "drivers" "odometry" "odometry/utils"  "odometry/app" "odometry/drivers" "odometry/hal" "odometry/utils/logs" "odometry/utils/maths" "odometry/utils/state_machine" "odometry/utils/tick")
+set(COMPONENT_REQUIRES lwip mbedtls)
+set(COMPONENT_SUBMODULES odometry)
+register_component()

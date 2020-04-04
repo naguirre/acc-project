@@ -15,7 +15,13 @@ typedef struct _Robot_Action {
     uint16_t duration;
 } Robot_Action;
 
-extern QueueHandle_t queue;
 
+typedef struct _Robot_Move {
+    int8_t mx;
+    int8_t my;
+} Robot_Move;
+
+extern QueueHandle_t queue_actions;
+extern QueueHandle_t queue_moves;
 
 #endif /* __COMMON_H__ */

@@ -1,0 +1,24 @@
+{
+    "C_Cpp.clang_format_style": "Visual Studio",
+    "editor.formatOnSave": false,
+    "[cpp]": {
+        "editor.quickSuggestions": true
+    },
+    "[c]": {
+        "editor.quickSuggestions": true
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "files.associations": {
+        "sha1.h": "c",
+        "base64.h": "c",
+        "ws.h": "c",
+        "__locale": "c",
+        "websocket_server.h": "c",
+        "esp_attr.h": "c",
+        "string.h": "c",
+        "robot.h": "c",
+        "mcpwm_struct.h": "c",
+        "mcpwm.h": "c",
+        "future": "cpp"
+    }
+} 

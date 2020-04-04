@@ -38,7 +38,7 @@
 #include "soc/mcpwm_reg.h"
 #include "soc/mcpwm_struct.h"
 
-
+#include "robot.h"
 /* FreeRTOS event group to signal when we are connected*/
 static EventGroupHandle_t wifi_event_group;
 /* The event group allows multiple bits for each event,
