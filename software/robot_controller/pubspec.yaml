@@ -19,23 +19,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  todos_app_core:
-    path: ../todos_app_core
-  todos_repository_local_storage:
-    path: ../todos_repository_local_storage
-  key_value_store_flutter:
-  key_value_store_web:
-  shared_preferences:
-
+  control_pad: ^1.0.1+1
+  web_socket_channel: "^1.0.12"
+  universal_html: ^1.1.20
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_driver:
     sdk: flutter
-  test:
-  mockito:
-  integration_tests:
-    path: ../integration_tests
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
