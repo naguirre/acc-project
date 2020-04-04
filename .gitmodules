@@ -1,3 +1,6 @@
 [submodule "software/robot/components/odometry/odometry"]
 	path = software/robot/components/odometry/odometry
 	url = git@github.com:naguirre/robot_sw.git
+[submodule "software/robot/components/websocket"]
+	path = software/robot/components/websocket
+	url = https://github.com/Molorius/esp32-websocket.git
