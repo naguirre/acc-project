@@ -1,6 +1,6 @@
 {
-    "name": "robot_controller",
-    "short_name": "robot_controller",
+    "name": "roboto_controller",
+    "short_name": "roboto_controller",
     "start_url": ".",
     "display": "minimal-ui",
     "background_color": "#0175C2",
